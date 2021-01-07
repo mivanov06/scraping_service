@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home),
 ]
+
+#admin.site.site_header = 'Администрирование сайта'
