@@ -20,6 +20,7 @@ from scraping.views import home_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home_view),
+    path('', home_view)
 ]
 
 #admin.site.site_header = 'Администрирование сайта'
