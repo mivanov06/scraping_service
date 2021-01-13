@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scraping',
-    'accounts',
+    'scraping.apps.ScrapingConfig',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
